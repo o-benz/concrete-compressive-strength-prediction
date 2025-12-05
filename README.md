@@ -2,8 +2,6 @@
 
 > **Course:** MTH3303 – Probability & Statistics for AI
 > **Team:** D — Polytechnique Montréal
-> **Final Rank:** **1st Place** 🏆
-> **Final RMSE on Leaderboard:** **3.96123**
 
 Kaggle competition: [**Résistance à la compression du béton**](https://www.kaggle.com/competitions/Resistance-a-la-compression-du-beton)
 
@@ -13,8 +11,8 @@ Kaggle competition: [**Résistance à la compression du béton**](https://www.ka
 
  - [Overview](#overview)  
  - [Approach Summary](#approach-summary)  
-    - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)  
-    - [Feature Engineering](#feature-engineering)  
+    - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+    - [Feature Engineering](#feature-engineering)  
  - [Models Explored](#models-explored)  
  - [Final Solution: Heterogeneous Ensemble](#final-solution-heterogeneous-ensemble)  
  - [Team & Credits](#team--credits)  
@@ -87,7 +85,7 @@ Our final strategy focused on **Variance Reduction** through **Ensemble Blending
 
 **Best configuration used for EvoTrees:**
 * Features: All physical ratios + $\mathbf{\text{log10(Age+1)}} + \mathbf{\text{sqrt(Age)}}$
-* Hyperparameters: $\mathbf{nrounds = 800}$, $\mathbf{\text{max\_depth} = 6}$, $\mathbf{\text{eta} = 0.05}$
+* Hyperparameters: $\mathbf{nrounds = 800}$, max_depth = 6}$, $\mathbf{\text{eta} = 0.05}$
 
 The blend successfully neutralized the variance, leading to the **1st place $\text{RMSE}$ of $\mathbf{3.96123}$**.
 
@@ -96,10 +94,10 @@ The blend successfully neutralized the variance, leading to the **1st place $\te
 ## Team & Credits
 
 **Team D**
-Belhouala Omar-Rayan
-Benzekri Omar
-Hedad Ireina
-Ibrahim Massoud
+- Belhouala Omar-Rayan
+- Benzekri Omar
+- Hedad Ireina
+- Ibrahim Massoud
 
 **Instructor**
-**Prof. Jonathan Jalbert**
+- **Prof. Jonathan Jalbert**
