@@ -11,13 +11,13 @@ Kaggle competition: [**Résistance à la compression du béton**](https://www.ka
 
 ## Table of Contents
 
-1. [Overview](#overview)  
-2. [Approach Summary](#approach-summary)  
-    2.1. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)  
-    2.2. [Feature Engineering](#feature-engineering)  
-3. [Models Explored](#models-explored)  
-4. [Final Solution: Heterogeneous Ensemble](#final-solution-heterogeneous-ensemble)  
-5. [Team & Credits](#team--credits)  
+ - [Overview](#overview)  
+ - [Approach Summary](#approach-summary)  
+    - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)  
+    - [Feature Engineering](#feature-engineering)  
+ - [Models Explored](#models-explored)  
+ - [Final Solution: Heterogeneous Ensemble](#final-solution-heterogeneous-ensemble)  
+ - [Team & Credits](#team--credits)  
 
 ---
 
